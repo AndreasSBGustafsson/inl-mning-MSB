@@ -1,0 +1,30 @@
+// override bootstrap
+@import "variables";
+
+// import bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// our own styles
+
+#hero {
+	// background: url('/hero-bg.jpg');
+	background:
+		linear-gradient(90deg, #33333388 0%, #33333388 100%),
+		url('/hero-bg.jpg');
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+
+	color: $white;
+}
+
+.usp {
+	display: flex;
+	flex-direction: column;
+
+	.content {
+		background-color: #ddd;
+		flex-grow: 1;
+		// align-self: stretch;
+	}
+}
