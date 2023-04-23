@@ -13,13 +13,13 @@
 </head>
 <body>
 	<nav class="nav-1">
-			<img class="logo" src="/src/pics/MSB-LOGO-2.jpg" alt="MSB Logo">
+		<img class="logo" src="/src/pics/MSB%20LOGO.png" alt="MSB Logo">
 		<div class="menu">
-				<button>
+				<button class="nav-btn">
 					<span class="fa-solid fa-magnifying-glass fa-xl fa-fw btn-icon"></span>
 					<span class="btn-txt">SÖK</span>
 				</button>
-				<button>
+				<button class="nav-btn">
 					<span class="fa-fw fa-solid fa-bars fa-xl btn-icon"></span>
 					<span class="btn-txt">Meny</span>
 				</button>
@@ -27,9 +27,9 @@
 	</nav>
 	<nav class="nav-2">
 		<ul>
-			<span>Du är här:</span>
+			<li>Du är här:</li>
 			<li>
-				<a class="fa-solid fa-house" ></a>	
+				<a class="fa-solid fa-house home" > </a>	
 				<span class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs"></span>
 			</li>
 			<li>
@@ -47,7 +47,33 @@
 	</nav>
 <main> 
 	<header>
-		<img class="banner-img" src="/src/pics/Crushed baby FINAL.jpg" alt="Skogsbrand">
+		<div class="container">
+			<img class="banner-img" src="/src/pics/Crushed%20baby%20FINAL.jpg" alt="Nedfallet träd">
+			<a class="red-btn btn">
+				<p class="btn-div">Anmäl nedfallet träd</p>
+				<i class="fa-solid fa-arrow-right"></i>
+		</a>
+		</div>
+		<div class="popup-wrapper">
+			<div class="pop-up">
+				<div class="popup-close"><span>X</span></div>
+				<h2>Anmälan</h2>
+				<form action="">
+					<label for="name">Anmälare:</label><br>
+					<input type="text" id="name" name="name" value="Namn"><br>
+					<label for="lname">Plats:</label><br>
+					<input type="text" id="location" name="location" value="Välj närmaste adress"><br>
+					<label for="location">Plats:</label><br>
+					<textarea type="text" placeholder="Specifikation ang. plats, läge m.m."></textarea><br><br>
+					<input type="submit" value="Submit"> <br><br>
+					<p>Vid livshotande fara <a href="tel:+12345">Ring 112</a></p>
+				<!-- <h2>Anmäl nedfallet träd</h2>
+				<p>Anmälare:</p>
+				<p>Plats</p>
+				<p>Specifikation</p> -->
+			</form>
+			</div>
+		</div>
 	</header>
 <section>
 	<article class="article">
@@ -58,21 +84,18 @@
 			MSB:s informationsmaterial om naturolyckor ska underlätta för kommuner, länsstyrelser och andra aktörer att informera om naturolyckor. Informationsmaterialet ger stöd för kommunikation om hur man kan identifiera risker, planera och vidta förebyggande åtgärder mot naturolyckor.
 		</p>
 		<div class="links">
-			<button class="article-btn">
+			<a class="article-btn">
 				<i class="fa-solid fa-arrow-right"></i>
-				<p class="p-2">Säkerhet vid eldning i gräs</p>
-				
-			</button>
-			<button class="article-btn">
+				<p>Säkerhet vid eldning i gräs</p>
+			</a>
+			<a class="article-btn">
 				<i class="fa-solid fa-arrow-right"></i>
-				<p class="p-2">Säkerhet vid eldning i trädgården</p>
-				
-			</button>
-			<button class="article-btn">
+				<p>Säkerhet vid eldning i trädgården</p>
+			</a>
+			<a class="article-btn">
 				<i class="fa-solid fa-arrow-right"></i>
-				<p class="p-2">Så fungerar appen "Vid storm"</p>
-				
-			</button>
+				<p>Så fungerar appen "Vid storm"</p>
+			</a>
 		</div>
 	</article>
 	
@@ -80,110 +103,105 @@
 <section class="section">
 	<div class="section-name">
 			<h2>Hitta Snabbt</h2>
-		<div class="line">
-		</div>
+			<img class="logo" src="/src/pics/Houses.png" alt="">
+		<div class="line"></div>
 	</div>
 
-	<div class="links">
-		<a>
-			<div>
-				<p class="red-btn">
-					Webbkurs om Nato och civil beredskap
-					<i class="fa-solid fa-arrow-right"></i>
-				</p>
-			</div>
+	<div class="links-2">
+		<a class="red-btn">
+			<p>Webbkurs om Nato och civil beredskap</p>
+			<i class="fa-solid fa-arrow-right"></i>
 		</a>
-		<a>
-			<div>
-				<p class="red-btn">
-					Om it-sårbarhet på cert.se
-					<i class="fa-solid fa-arrow-right"></i>
-				</p>
-			</div>
+		<a class="red-btn">
+				<p>Om it-sårbarhet på cert.se</p>
+				<i class="fa-solid fa-arrow-right"></i>
 		</a>
-		<a>
-			<div>
-				<p class="red-btn btn-div">
-					Skyddsrumskarta
-					<i class="fa-solid fa-arrow-right"></i>
-				</p>
-			</div>
+		<a class="red-btn">
+				<p class="btn-div">Skyddsrumskarta</p>
+				<i class="fa-solid fa-arrow-right"></i>
 		</a>
-		<a>
-			<div>
-				<p class="red-btn btn-div">
-					Totalförsvarsplikt
-					<i class="fa-solid fa-arrow-right"></i>
-				</p>
-			</div>
+		<a class="red-btn">
+				<p class="btn-div">Totalförsvarsplikt</p>
+				<i class="fa-solid fa-arrow-right"></i>
 		</a>
-		<a>
-			<div>
-				<p class="red-btn btn-div">
-					Rådgivning i sytematisk inforamtionssäkerhet
-					<i class="fa-solid fa-arrow-right"></i>
-				</p>
-			</div>
+		<a class="red-btn">
+				<p class="btn-div">Rådgivning i sytematisk inforamtionssäkerhet</p>
+				<i class="fa-solid fa-arrow-right"></i>
 		</a>
 	</div>
 
 </section>
 <section class="section-2">
-		<img class="article-img" src="/src/pics/Gränssnitt 1.png" alt="Bild Brandrisk">
-	<div class="article-border">
-		<article class="article-2">
-			<h2>
-				Bränder i skog och mark
-			</h2>
-			<p>
-				MSB stöttar och stärker förmågan och beredskapen för skogsbrand hos samhällets aktörer - allt från kunskapsförmedling och beslutsunderlag till brandbekämpande insatser. Här finns en samlingssida med allt stöd MSB kan ge.
-			</p>
-		</article>
-	</div>
+	<div class="section-name">
+		<h2>Artiklar</h2>
+		<img class="logo" src="/src/pics/Trees.png" alt="">
+	<div class="line"></div>
+</div>
+	<a class="article-border">
+		<img class="article-img" src="/src/pics/Gränssnitt%201.png" alt="Bild Brandrisk">
+			<article class="article-2">
+				<h2>
+					Bränder i skog och mark
+				</h2>
+				<p>
+					MSB stöttar och stärker förmågan och beredskapen för skogsbrand hos samhällets aktörer - allt från kunskapsförmedling och beslutsunderlag till brandbekämpande insatser. Här finns en samlingssida med allt stöd MSB kan ge.
+				</p>
+			</article>
+	</a>
+	<a class="article-border">
+		<img class="article-img" src="/src/pics/hesa fredrik_webb.jpg" alt="Bild Brandrisk">
+			<article class="article-2">
+				<h2>
+					Hesa Fredrik tjuter för fullt
+				</h2>
+				<p>
+					MSB stöttar och stärker förmågan och beredskapen för skogsbrand hos samhällets aktörer - allt från kunskapsförmedling och beslutsunderlag till brandbekämpande insatser. Här finns en samlingssida med allt stöd MSB kan ge.
+				</p>
+			</article>
+	</a>
 </section>
 </main>
 <footer>
 	<address>
 		<div class="footer"> 
-			<img class="logo" src="/src/pics/MSB-LOGO-2.jpg" alt="MSB Logo">
-			<h4>
+			<img class="logo" src="/src/pics/MSB%20LOGO.png" alt="MSB Logo">
+			<p class="h4">
 				Kontakta MSB
-			</h4>
-			<h5>
+			</p>
+			<p class="h5">
 				Telefonnummer
-			</h5>
-			<a>0771-240 240</a>
-			<h5>
+			</p>
+			<a class="hover-link" href= “tel:+123456”>0771-240 240</a>
+			<p class="h5">
 				Epost
-			</h5>
-			<a>
+			</p>
+			<a class="hover-link">
 				registartor@mail.com
 			</a>
-			<h5>
+			<p class="h5">
 				Postadress
-			</h5>
+			</p>
 			<a>
 				123 45 Låtsasstad
 			</a>
-			<h5>
+			<p class="h5">
 				Organistionsnummer
-			</h5>
+			</p>
 			<a>
 				123456-7891
 			</a>
 			<div class="footer-2">
-				<h4>
+				<p class="h4">
 					Andra kontaktvägar
-				</h4>
-				<a>Press</a>
-				<a>Besöksadresser och öppettider</a>
+				</p>
+				<a class="hover-link">Press</a>
+				<a class="hover-link">Besöksadresser och öppettider</a>
 				<hr>
-				<p class="quote">Ett säkrare samhälle i en förendlig värld</p>
+				<p class="quote">Ett säkrare samhälle i en förändlig värld</p>
 			</div>
-			
-			
 		</div>
 	</address>
 </footer>
+<script src="/src/popup.ts"></script>
 </body>
 </html>
