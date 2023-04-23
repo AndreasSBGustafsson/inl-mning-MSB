@@ -57,14 +57,17 @@
 		<div class="popup-wrapper">
 			<div class="pop-up">
 				<div class="popup-close"><span>X</span></div>
-				<h2>Anmälan</h2>
-				<form action="">
+				<div class="popup-header">
+					<h2>Anmälan</h2>
+					<img class="logo" src="/src/pics/Trees.png" alt="Trä illustration">
+				</div>
+				<form>
 					<label for="name">Anmälare:</label><br>
 					<input type="text" id="name" name="name" value="Namn"><br>
-					<label for="lname">Plats:</label><br>
-					<input type="text" id="location" name="location" value="Välj närmaste adress"><br>
 					<label for="location">Plats:</label><br>
-					<textarea type="text" placeholder="Specifikation ang. plats, läge m.m."></textarea><br><br>
+					<input type="text" id="location" name="location" value="Välj närmaste adress"><br>
+					<label for="specification">Specifikation:</label><br>
+					<textarea id="specification" placeholder="Specifikation ang. plats, läge m.m."></textarea><br><br>
 					<input type="submit" value="Submit"> <br><br>
 					<p>Vid livshotande fara <a href="tel:+12345">Ring 112</a></p>
 				<!-- <h2>Anmäl nedfallet träd</h2>
@@ -149,7 +152,7 @@
 			</article>
 	</a>
 	<a class="article-border">
-		<img class="article-img" src="/src/pics/hesa fredrik_webb.jpg" alt="Bild Brandrisk">
+		<img class="article-img" src="/src/pics/hesa%20fredrik_webb.jpg" alt="Bild Brandrisk">
 			<article class="article-2">
 				<h2>
 					Hesa Fredrik tjuter för fullt

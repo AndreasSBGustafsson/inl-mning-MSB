@@ -41,7 +41,7 @@ input {
 .container .btn {
   position: absolute;
   top: 70%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #CC0100;
@@ -77,6 +77,10 @@ input {
   padding: 20px;
   background: white;
   position: relative;
+}
+.popup-wrapper .pop-up .popup-header {
+  display: flex;
+  justify-content: space-between;
 }
 .popup-wrapper .pop-up .popup-close {
   position: absolute;

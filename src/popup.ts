@@ -1,9 +1,9 @@
 
-const button = document.querySelector('.btn') as HTMLElement
+const buttonBTN = document.querySelector('.btn') as HTMLElement
 const popup = document.querySelector('.popup-wrapper') as HTMLElement
 const closePop = document.querySelector('.popup-close') as HTMLElement
 
-button.addEventListener('click', ()=>{
+buttonBTN.addEventListener('click', ()=>{
 popup.style.display = 'block'
 })
 
