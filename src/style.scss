@@ -57,7 +57,7 @@ body {
         cursor: pointer;
         border-radius: 25px;
       }
-      .container .btn:hover {
+      .container .btn:hover, .btn:active{
         p {
             text-decoration: underline;
         }
@@ -191,10 +191,10 @@ body {
                     a   {
                         margin-right: 4px;
                     }
-                    a:hover {
+                    a:hover,  a:active{
                         text-decoration: underline;
                     }
-                    .fa-house:hover{
+                    .fa-house:hover,  .fa-house:active{
                         color:#E67B5E;
                         border-radius: 12.5px;
                     }
@@ -267,7 +267,7 @@ body {
         padding-top: 1rem;
         padding-bottom: 5rem;    
         
-        a:hover   {
+        a:hover,  a:active {
             p{
                 text-decoration: underline;
             }
@@ -329,7 +329,7 @@ body {
         p   {
             padding-right: 2rem;
         }
-        a:hover   {
+        a:hover,  a:active {
             color: #333;
             background-color: #E67B5E;
                 
@@ -355,7 +355,7 @@ body {
         // margin-top: 8rem;
         padding: 10px;
 
-        a:hover   {
+        a:hover, a:active  {
             -moz-transition: all .1s ease-in;
             -o-transition: all .1s ease-in;
             -webkit-transition: all .1s ease-in;
@@ -438,7 +438,7 @@ address  {
             color: #E5E5E2;
            
         }
-        .hover-link:hover {
+        .hover-link:hover, .hover-link:active{
             background-color: #333;
         }
         a{

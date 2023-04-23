@@ -53,10 +53,10 @@ input {
   border-radius: 25px;
 }
 
-.container .btn:hover {
+.container .btn:hover, .btn:active {
   background-color: #E67B5E;
 }
-.container .btn:hover p {
+.container .btn:hover p, .btn:active p {
   text-decoration: underline;
 }
 
@@ -176,10 +176,10 @@ input {
 .nav-2 ul li a {
   margin-right: 4px;
 }
-.nav-2 ul li a:hover {
+.nav-2 ul li a:hover, .nav-2 ul li a:active {
   text-decoration: underline;
 }
-.nav-2 ul li .fa-house:hover {
+.nav-2 ul li .fa-house:hover, .nav-2 ul li .fa-house:active {
   color: #E67B5E;
   border-radius: 12.5px;
 }
@@ -243,7 +243,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 5rem;
 }
-.article a:hover p {
+.article a:hover p, .article a:active p {
   text-decoration: underline;
 }
 
@@ -297,11 +297,11 @@ p {
 .links-2 p {
   padding-right: 2rem;
 }
-.links-2 a:hover {
+.links-2 a:hover, .links-2 a:active {
   color: #333;
   background-color: #E67B5E;
 }
-.links-2 a:hover p {
+.links-2 a:hover p, .links-2 a:active p {
   text-decoration: underline;
 }
 
@@ -318,14 +318,14 @@ p {
   flex-direction: column;
   padding: 10px;
 }
-.section-2 a:hover {
+.section-2 a:hover, .section-2 a:active {
   -moz-transition: all 0.1s ease-in;
   -o-transition: all 0.1s ease-in;
   -webkit-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
   background-color: #CACAC4;
 }
-.section-2 a:hover h2 {
+.section-2 a:hover h2, .section-2 a:active h2 {
   text-decoration: underline;
 }
 
@@ -388,7 +388,7 @@ address .footer .hover-link {
   text-transform: none;
   color: #E5E5E2;
 }
-address .footer .hover-link:hover {
+address .footer .hover-link:hover, address .footer .hover-link:active {
   background-color: #333;
 }
 address .footer a {
